@@ -1,4 +1,6 @@
 //hi
+
+( ()=>{
 sheetIndex = 0;
 sheetsFileID = '15q81j8BI3LB8F0TdZP_px6ryFL_1D1tYu4ELAS8clwk';
 
@@ -144,3 +146,4 @@ function filterParts() {
 }
 
 });
+}) ()
