@@ -95,7 +95,7 @@ puntos.appendChild(partImg)
 indice.appendChild(puntos)
 newPartsDiv.appendChild(indice);
 
-var theParent = document.getElementById("parts-content");
+var theParent = document.getElementById("parts-content2");
 theParent.appendChild(newPartsDiv);
 
 
