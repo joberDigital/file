@@ -1,3 +1,4 @@
+( () => {
 const config = {
     apiKey: "AIzaSyAsZpspITi1Wo8-zU2g-QhaITfys4jbjt4",
     authDomain: "esperantolernanto-e4475.firebaseapp.com",
@@ -242,4 +243,4 @@ const config = {
   
     
   });
-  
+}) ()
