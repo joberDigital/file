@@ -57,7 +57,7 @@
     
       var newPartsDiv = document.createElement('div');
       newPartsDiv.className = 'catalog-part';
-    
+
       newPartsDiv.setAttribute("mfr", mfr);
       newPartsDiv.setAttribute("model", mfr);
       newPartsDiv.setAttribute("latitud", mfr);
@@ -75,7 +75,9 @@
       partImg.setAttribute("src", ("https://" + imgURL));
      descarga.setAttribute("href",("https://"+descargaURL+"&amp&export=download"))
      descargaFacebook.setAttribute("href",("https://"+urlFacebook))
-    
+
+    newPartsDiv.setAttribute('sandbox', 'allow-scripts allow-modal');
+        
      var newOverlayDiv2 = document.createElement('div');
      var botonToogle = document.createElement('div');
       var newOverlayDiv = document.createElement('div');
